@@ -13,7 +13,7 @@ for (var i = 0; i < drumButtons.length; i++){
 // Detecting Key pressed
 document.addEventListener('keydown', function(evt){
     makeSound(evt.key);
-    makeSound(evt.key);
+    buttonAnimation(evt.key);
 })
 
 function makeSound(key){
